@@ -1,0 +1,76 @@
+body {
+    background: #FFE5EC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#welcome {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blurb h2 {
+    color: #FB6F92;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb h3 {
+    color: #FB6F92;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.blurb p {
+    color: #bc2578;
+
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.0rem;
+    font-weight: 100;
+    background-color: #FFB3C6;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #bc2578;
+}
+
+#mainNavbar .navbar-brand {
+    color: #bc2578;
+    font-size: 1.25rem;
+}
+
+#headingGroup span {
+    color: #530850;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+
+.navbar.scrolled {
+    background: #FFB3C6;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
